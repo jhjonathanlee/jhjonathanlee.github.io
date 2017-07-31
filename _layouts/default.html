@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+    	<meta charset="UTF-8">
+    	<title>{{ page.title }}</title>
+    	<!-- bootstrap 3 -->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    	<link rel="stylesheet" href="../css/main.css">
+  	</head>
+  	<body>
+  		<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+  				<div class="navbar-header">
+  					<a class="navbar-brand" href="#">Jonathan Lee</a>
+  				</div>
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="#whoami">Who Am I?</a></li>
+  					<!-- <li><a href="skills">Skills</a></li> -->
+  					<li><a href="#projects">Projects</a></li>
+  					<li><a href="#contactMe">Contact Me</a></li>
+  					<li><a href="#">Resume</a></li>
+  					<li><a href="#aboutSite">Site</a></li>
+  				</ul>
+  			</div>
+  		</nav>
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+  		<footer id="aboutSite">
+  			<div class="bottom">
+          <ul>
+            <li><a href="mailto:jh.jonathanlee@gmail.com">email</a></li>
+            <li><a href="https://github.com/jhjonathanlee">github.com/jhjonathanlee</a></li>
+          </ul>
+  			<div>
+  		</footer>
+  	</body>
+</html>
